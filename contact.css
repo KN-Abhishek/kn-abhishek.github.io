@@ -69,15 +69,17 @@ input{
     background-color: black;
     color: white;
     border: none;
-    opacity: 0.5;
+    opacity: 0.5
+    ;
 
 }
 textarea{
     width: 350px;
     height: 40px;
     background-color: black;
+    color: white;
     border: none;
-    opacity: 0.1;
+    opacity: 0.5;
 
     
 }
@@ -85,5 +87,6 @@ textarea{
     background-color:white;
     border: none;
     opacity: 0.5;
+    color: white;
     
 }

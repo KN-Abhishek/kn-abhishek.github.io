@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    /* background-image: url("alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"); */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 80vh;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    /* position: fixed; */
+    left: 20px;
+    bottom: 0;
+    margin-top: 20px;
+    width: 98.7%; 
+    height: 70px;
+} 
+

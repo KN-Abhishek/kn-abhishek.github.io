@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="new.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skill.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <br>
+            <form action="submit.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input class="submitbtn" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
